@@ -12,7 +12,7 @@ const page: FC<pageProps> = ({}) => {
     <Wrapper className='overflow-hidden'>
       <Container className='flex flex-col md:flex-row'>
         <div className='flex w-1/2 min-w-screen flex-col md:border-r border-primary py-12 px-4'>
-          <h1 className='mb-8 text-lg md:text-4xl font-bold uppercase text-purple-900'>
+          <h1 className='mb-8 text-lg md:text-4xl font-bold uppercase text-indigo-400'>
             {"About Us"}
           </h1>
           <p className='mb-1 text-md md:text-lg'>{"Creative Developer"}</p>
@@ -29,7 +29,7 @@ const page: FC<pageProps> = ({}) => {
             exit={{ opacity: 0, x: 20 }}
             className='h-full w-full object-cover'
             src='https://images.unsplash.com/photo-1627734819947-ba884aea9801?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3017&q=100'
-            alt='image 1'
+            alt='about us image'
           />
         </div>
       </Container>
