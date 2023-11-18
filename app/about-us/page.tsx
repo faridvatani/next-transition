@@ -28,7 +28,7 @@ const page: FC<pageProps> = ({}) => {
             animate={{ opacity: 1, x: 0, transition: { delay: 0.2 } }}
             exit={{ opacity: 0, x: 20 }}
             className='h-full w-full object-cover'
-            src='/image-2.jpeg'
+            src='./image-2.jpeg'
             alt='about us image'
             loading='lazy'
             placeholder='blur'
