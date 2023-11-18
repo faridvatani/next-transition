@@ -17,8 +17,10 @@ const page: FC<pageProps> = ({}) => {
             animate={{ opacity: 1, x: 0, transition: { delay: 0.2 } }}
             exit={{ opacity: 0, x: -20 }}
             className='h-full w-full object-cover'
-            src='./image-3.jpeg'
+            src='/image-3.jpeg'
             alt='contact us image'
+            loading='lazy'
+            placeholder='blur'
           />
         </div>
         <div className='flex w-1/2 min-w-screen flex-col md:border-l border-primary py-12 px-4'>
