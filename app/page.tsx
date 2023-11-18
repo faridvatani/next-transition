@@ -1,10 +1,10 @@
-import { Container } from "@/components/container";
-import { Wrapper } from "@/components/wrapper";
-import Link from "next/link";
+import { Container } from '@/components/container';
+import { Wrapper } from '@/components/wrapper';
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <Wrapper className='h-screenHeightWithoutHeader bg-[url(/image-1.jpeg)] bg-cover bg-center'>
+    <Wrapper className='h-screenHeightWithoutHeader bg-hero bg-cover bg-center'>
       <Container className='text-beige flex h-full flex-col text-center justify-center  lg:text-2xl'>
         <h1 className='mb-8 text-3xl lg:text-7xl font-bold bg-gradient-to-r from-primary to-secondary inline-block text-transparent bg-clip-text whitespace-normal'>
           Welcome to Next Transition
@@ -18,7 +18,7 @@ export default function Home() {
           href='/about-us'
           className='text-primary mx-auto mt-12 text-lg uppercase rounded-full border-2 border-primary bg-transparent backdrop-blur-md p-4 transition-colors hover:bg-primary hover:text-beige'
         >
-          {"More about us"}
+          {'More about us'}
         </Link>
       </Container>
     </Wrapper>
