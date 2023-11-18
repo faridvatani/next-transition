@@ -6,7 +6,3 @@ html,
 body {
   @apply bg-beige font-serif;
 }
-
-.bg-hero {
-  background-image: url('/image-1.jpeg');
-}
