@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
+  output: 'export',
+  assetPrefix: '/',
+  basePath: '/faridvatani.github.io',
 };
 
 module.exports = nextConfig;
