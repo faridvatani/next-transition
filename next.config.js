@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  assetPrefix: '/',
+  assetPrefix: '/next-transition',
   basePath: '/faridvatani.github.io',
 };
 
