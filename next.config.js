@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? '/next-transition' : '',
+  output: 'standalone',
 };
 
 module.exports = nextConfig;
