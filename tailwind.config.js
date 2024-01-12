@@ -1,4 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+
+const basePath =
+  process.env.NEXT_PUBLIC_NODE_ENV === 'production' ? '/next-transition' : '';
+
 module.exports = {
   content: [
     './app/**/*.{js,ts,jsx,tsx}',
@@ -8,7 +12,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: 'url("/image-1.jpeg")',
+        hero: `url("${basePath}/image-1.jpeg")`,
       },
       colors: {
         primary: '#896d66',
